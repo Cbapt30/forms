@@ -1,7 +1,7 @@
 $(function()  {
   $("#blanks form").submit(function(event) {
-    debugger;
       var person1Input = $("input#person1").val();
+      debugger;
       var person2Input = $("input#person2").val();
       var animalInput = $("input#animal").val();
       var exclamationInput = $("input#exlamation").val();
@@ -12,7 +12,7 @@ $(function()  {
       $(".person1").append(person1Input);
       $(".person2").append(person2Input);
       $(".animal").append(animalInput);
-      $(".exclamation").append(exclamation1Input);
+      $(".exclamation").append(exclamationInput);
       $(".verb").append(verbInput);
       $(".noun").append(nounInput);
       $("#story").show();
